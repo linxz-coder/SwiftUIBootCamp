@@ -26,6 +26,7 @@ struct BindingView: View {
 
 struct ButtonView: View {
     
+    // @Binding: 子视图向父视图传递参数
     @Binding var backgroundColor: Color
     @State var buttonColor: Color = Color.blue
     @Binding var title: String

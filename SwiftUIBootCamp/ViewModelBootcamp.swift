@@ -6,6 +6,7 @@ struct FruitModel: Identifiable{
     let count: Int
 }
 
+//当子model向父视图传递object
 class FruitViewModel: ObservableObject{
     //Publish与State一样
     @Published var fruitArray: [FruitModel] = []
