@@ -19,6 +19,7 @@ struct StateBootCamp: View {
                     .font(.title)
                 Text("Count: \(count)")
                     .font(.headline)
+                    .fontWeight(.heavy)
                     .underline()
                 
                 HStack(spacing:20){
