@@ -4,14 +4,14 @@ struct TextBootcamp: View {
     var body: some View {
         Text("Hello, World!This is a good place to stay. Welcome you. Here is good.")
             //加粗的两种方式
-//            .font(.title)
-//            .bold()
+            .font(.title)
+            .bold()
         
             //下划线
             .underline(color: .red)
         
             //斜体
-//            .italic()
+            .italic()
         
             //删除线
             .strikethrough(color: .green)
@@ -29,8 +29,6 @@ struct TextBootcamp: View {
             .frame(width: 200, height: 100, alignment: .leading)
             //文本框的字体自适应
             .minimumScaleFactor(0.2)
-        
-            
     }
 }
 
