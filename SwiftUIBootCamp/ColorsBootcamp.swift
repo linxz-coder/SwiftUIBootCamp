@@ -1,13 +1,8 @@
-//
-//  ColorsBootcamp.swift
-//  SwiftUIBootCamp
-//
-//  Created by linxiaozhong on 2024/12/22.
-//
-
 import SwiftUI
 
 struct ColorsBootcamp: View {
+    var color = #colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
             .frame(width: 300, height: 200)
@@ -25,4 +20,3 @@ struct ColorsBootcamp: View {
 #Preview {
     ColorsBootcamp()
 }
- 

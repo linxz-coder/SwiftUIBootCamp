@@ -37,7 +37,6 @@ struct ShapesBootcamp: View {
         RoundedRectangle(cornerRadius: 10)
             .frame(width: 300, height: 200)
     }
-    
 }
 
 #Preview {
